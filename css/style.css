@@ -114,3 +114,44 @@ a{
     font-size:0.85rem;
     opacity: 0.9;                                  ;
 }
+.badge{
+    background-color: white;
+    border: none;
+    border-radius: 100px;
+    padding:0.25rem 1rem;
+    font-weight: 700;
+    margin-top:0.5rem;
+    height: 2rem;
+    width: fit-content;
+}
+.dark-badge{
+    background-color: #121212;
+    color: white;
+}
+.sticky-nav{
+    position: sticky;
+    top: 0%;
+    background-color:#121212;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:1rem 0 1rem 0;
+    z-index: 1;
+}
+.sticky-nav-icons {
+    margin-left: 0.75rem;
+}
+.sticky-nav-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.nav-item{
+     margin-right: 1rem;
+     opacity: 0.7;
+}
+.nav-item:hover{
+    opacity: 1;
+
+}
