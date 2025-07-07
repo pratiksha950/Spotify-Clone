@@ -17,3 +17,11 @@ body{
     margin-right: 0.5rem;
     
 }
+.main-content{
+    background-color: #121212 ;
+    flex:1;
+    border-radius: 1rem;
+    padding: 0 1.5rem 0 1.5rem;
+    overflow: auto;
+    justify-content: space-around;
+}
