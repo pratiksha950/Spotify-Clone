@@ -195,3 +195,12 @@ a{
     opacity: 0.4;
    
 }
+.music-player{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    
+    height: 75px; 
+    background-color: #121212;
+}
